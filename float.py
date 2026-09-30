@@ -13,13 +13,17 @@ print(f'{nazwisko}: {type(nazwisko)}')
 print(f'{wiek}: {type(wiek)}')
 print(f'{wzrost}: {type(wzrost)}')
 
-# TODO : zczytaj i wypisz od użytkownika jego wzrost i przypisz go do zmiennej wzrost. Pamiętaj, że wzrost jest liczbą zmiennoprzecinkową (float).
+# TODO : zczytaj i wypisz od użytkownika jego wzrost i przypisz go do zmiennej wzrost. 
+# Pamiętaj, że wzrost jest liczbą zmiennoprzecinkową (float).
 print("=============Wczytywanie wzrostu==============")
 
 
-# TODO : użyj try catch aby obsłużyć sytuację, gdy użytkownik poda niepoprawną wartość wzrostu (np. tekst zamiast liczby). 
+# TODO : użyj try catch aby obsłużyć sytuację, gdy użytkownik poda niepoprawną 
+# wartość wzrostu (np. tekst zamiast liczby). 
 # W przypadku błędu wypisz komunikat o błędzie i przypisz zmiennej wzrost wartość 0.0. 
-# Jeśli użytkownik poda poprawną wartość, przypisz ją do zmiennej wzrost i wypisz komunikat o poprawnym wczytaniu wzrostu i wypisz typ i wartość zmiennej wzrost.
+# Jeśli użytkownik poda poprawną wartość, przypisz ją do zmiennej wzrost i wypisz komunikat 
+# o poprawnym wczytaniu wzrostu i wypisz typ i wartość zmiennej wzrost.
+
 print("=============Obsługa błędów==============")
 # try:
 
@@ -46,7 +50,7 @@ print(f"Typ: {type(srednia)}")
 
 
 # TODO: użyj operatora floor division (//) aby policzyć ile pełnych paczek kabla można zrobić z podanej długości kabla. Wypisz wynik oraz typ zmiennej.
-
+print("=============Podział kabla na paczki==============")
 
 dlugosc_kabla = 767   # float
 dlugosc_paczki = 10   # int
@@ -58,14 +62,14 @@ print(f"Liczba PEŁNYCH paczek (int): {liczba_paczek}")
 
 
 # konwersja typów zmiennych. Co się dzieje, gdy konwertujemy float na int? Sprawdźmy to.
-
+print("=============Konwersja typów zmiennych==============")
 
 x = int(6.7)
 print(f'{x}: {type(x)}')
 
 
 # TODO: użyj operatora modulo (%) aby policzyć ile kabli zostanie po zrobieniu pełnych paczek. Wypisz wynik oraz typ zmiennej.
-
+print("=============Reszta kabla==============")
 
 reszta = dlugosc_kabla - liczba_paczek * dlugosc_paczki
 print(f"Pozostało {reszta} metrów kabla") # oczekiwany wynik
@@ -75,31 +79,32 @@ print(f"Pozostało {reszta} metrów kabla") # oczekiwany wynik
 # TODO: Zczytaj od użytkownika liczbę i potęgę, a następnie wypisz wynik potęgowania oraz typ zmiennej.
 
 
+print("=============Potęgowanie==============")
 
 # Rounding liczb zmiennoprzecinkowych w Pythonie odbywa się za pomocą funkcji round(). Co to znaczy rounding?
 print("=============funckje wbudowane==============")
 
-print(round(6.7))  
+print(f"......(6.7): {round(6.7)}")
 
-print(abs(-10))
+print(f"......{abs(-10)}")
 
-print(len("Hello world!")) 
+print(f"......{len('Hello world!')}")
 
-print(max(7,3,5,8,22,3,19)) 
-print(min(7,3,5,8,22,3,19)) 
+print(f"......{max(7,3,5,8,22,3,19)}") 
+print(f"......{min(7,3,5,8,22,3,19)}") 
 
 print("=============Random (Używanie bibliotek)==============")
 
 import random as random
-print(random.randint(0, 10))
-print(random.randint(5, 15))
+print(f"......{random.randint(0, 10)}")
+print(f"......{random.randint(5, 15)}")
 
 print("============= Math (Używanie bibliotek)==============")
 
 import math
-print(math.sqrt(16))
-print(math.ceil(6.7))  
-print(math.floor(6.7))
+print(f"......{math.sqrt(16)}")
+print(f"......{math.ceil(6.7)}")  
+print(f"......{math.floor(6.7)}")
 
 print("===============Zadania dodatkowe===============")
 # Pobierz od użytkownika liczbę, a następnie wartość procentową.
