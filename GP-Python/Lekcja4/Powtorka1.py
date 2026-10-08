@@ -1,8 +1,8 @@
-# %%
+
 #===================ZADANIA SPRAWDZAJĄCE=========================#
 # Pobierz odległość (kilometry) i czas (godzina) od użytkownika. Wylicz średnią prędkość
 print(f'==============Kilometry=================')
-# %% [markdown]
+
 
 # Pobierz przyprostokątne a i b. Oblicz przeciwprostokątną c. (Tw. Pitagorasa)
 print(f"=============Pitagoras==================")
@@ -42,9 +42,3 @@ print(wylosowane_liczby)
         
 
 
-    
-
-
-
-
-# %%
