@@ -7,7 +7,10 @@ print(f'==============Kilometry=================')
 # Pobierz przyprostokątne a i b. Oblicz przeciwprostokątną c. (Tw. Pitagorasa)
 print(f"=============Pitagoras==================")
 
-
+import math
+a = int(input("Podaj a: "))
+b = int(input("Podaj b: "))
+print(f'Przeciwprostokątna tego trójkątu wynosi: {math.sqrt(a*a + b*b)}')
 #Parking ma 77 metrów długości. Jedno auto zajmuje 5 metrów, parkując równolegle. 
 # Ile aut zmieści się na parkingu oraz ile miejsca pozostanie niewykorzystane?
 print(f'===============Parking===================')
